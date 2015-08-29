@@ -1,0 +1,16 @@
+sms_settings:
+ username: solidsydney@gmail.com
+ password: hetalksinme2
+ sendername: HARRY_FIELD
+ host_url: http://www.smslive247.com/http/index.aspx
+ success_code: "0"
+
+parameter_mappings:
+ username: owneremail
+ password: subacctpwd
+ sendername: subacct
+ message: message
+ phone: sendto
+
+# Additional parameters to be added should given in the format "param1=value1&param2=value2&..."
+additional_parameters: "cmd=sendquickmsg&msgtype=0&sender=HARRY_FIELD"

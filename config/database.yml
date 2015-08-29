@@ -1,28 +1,25 @@
 development:
-      host: <%=ENV['OPENSHIFT_MYSQL_DB_HOST']%>
+      host: localhost
       adapter: mysql
-      database: <%=ENV['OPENSHIFT_APP_NAME']%>
-      port: <%=ENV['OPENSHIFT_MYSQL_DB_PORT']%>
-      socket:   <%=ENV['OPENSHIFT_MYSQL_DB_SOCKET']%>
-      username: <%=ENV['OPENSHIFT_MYSQL_DB_USERNAME']%>
-      password: <%=ENV['OPENSHIFT_MYSQL_DB_PASSWORD']%>
+      database: harry_field_dev
+      port: 3306
+      username: root
+      password: hetalksinme2
 
 test: &test
-      host: <%=ENV['OPENSHIFT_MYSQL_DB_HOST']%>
+      host: localhost
       adapter: mysql
-      database: <%=ENV['OPENSHIFT_APP_NAME']%>
-      port: <%=ENV['OPENSHIFT_MYSQL_DB_PORT']%>
-      socket:   <%=ENV['OPENSHIFT_MYSQL_DB_SOCKET']%>
-      username: <%=ENV['OPENSHIFT_MYSQL_DB_USERNAME']%>
-      password: <%=ENV['OPENSHIFT_MYSQL_DB_PASSWORD']%>
+      database: harry_field_test
+      port: 3306
+      username: root
+      password: hetalksinme2
 
 production:
-      host: <%=ENV['OPENSHIFT_MYSQL_DB_HOST']%>
+      host: localhost
       adapter: mysql
-      database: <%=ENV['OPENSHIFT_APP_NAME']%>
-      port: <%=ENV['OPENSHIFT_MYSQL_DB_PORT']%>
-      socket:   <%=ENV['OPENSHIFT_MYSQL_DB_SOCKET']%>
-      username: <%=ENV['OPENSHIFT_MYSQL_DB_USERNAME']%>
-      password: <%=ENV['OPENSHIFT_MYSQL_DB_PASSWORD']%>
+      database: harry_field_prod
+      port: 3306
+      username: root
+      password: hetalksinme2
 cucumber:
   <<: *test
