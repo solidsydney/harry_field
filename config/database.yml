@@ -1,25 +1,25 @@
 development:
       host: localhost
       adapter: mysql
-      database: harry_field_dev
+      database: dev_db_erp
       port: 3306
       username: root
-      password: hetalksinme2
+      password: Mrsayinsansa@123
 
 test: &test
       host: localhost
       adapter: mysql
-      database: harry_field_test
+      database: test_db_erp
       port: 3306
       username: root
-      password: hetalksinme2
+      password: Mrsayinsansa@123
 
 production:
       host: localhost
       adapter: mysql
-      database: harry_field_prod
+      database: harry_field
       port: 3306
       username: root
-      password: hetalksinme2
+      password: Mrsayinsansa@123
 cucumber:
   <<: *test
