@@ -1,6 +1,6 @@
 FEDENA_DEFAULTS = {
-  :company_name => 'HARRY_FIELDS SCHOOL',
-  :company_url  => 'http://harryfieldschool.com/index.php/en'
+  :company_name => 'Harry Field Schools',
+  :company_url  => 'http://harryfieldschools.com'
 }
 
 USER_SETTINGS = {}
