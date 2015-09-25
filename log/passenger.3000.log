@@ -1,0 +1,80 @@
+[ 2015-09-25 10:23:48.5879 11475/7f0413811780 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-25 10:23:48.5912 11483/7f48cef6f780 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-25 10:23:48.5913 11483/7f48cef6f780 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-25 10:23:48.5929 11483/7f48cef6f780 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 11483
+[ 2015-09-25 10:23:48.5979 11491/7f23b6472780 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-25 10:23:48.5983 11491/7f23b6472780 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 11491
+2015/09/25 10:23:50 [error] 11516#0: *4 directory index of "/home/mocheje/AYI/ERP/public/" is forbidden, client: 127.0.0.1, server: _, request: "HEAD / HTTP/1.1", host: "0.0.0.0"
+
+
+[ 2015-09-25 10:26:51.7083 11483/7f48ccf2c700 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-25 10:26:51.7083 11491/7f23affff700 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-25 10:26:51.7084 11483/7f48cef6f780 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-25 10:26:51.7084 11491/7f23b6472780 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-25 10:26:51.7086 11491/7f23affff700 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-25 10:26:51.7086 11491/7f23af7fe700 Ser/Server.h:758 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-25 10:26:51.7087 11491/7f23af7fe700 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-25 10:26:51.7087 11483/7f48ccf2c700 Ser/Server.h:758 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-25 10:26:51.7088 11483/7f48ccf2c700 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-25 10:26:51.7090 11483/7f48b6ffd700 Ser/Server.h:758 ]: [ServerThr.4] Freed 128 spare client objects
+[ 2015-09-25 10:26:51.7091 11483/7f48b6ffd700 Ser/Server.h:443 ]: [ServerThr.4] Shutdown finished
+[ 2015-09-25 10:26:51.7092 11483/7f48b7fff700 Ser/Server.h:758 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-25 10:26:51.7092 11483/7f48b7fff700 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-25 10:26:51.7093 11483/7f48b77fe700 Ser/Server.h:758 ]: [ServerThr.3] Freed 128 spare client objects
+[ 2015-09-25 10:26:51.7093 11483/7f48b77fe700 Ser/Server.h:443 ]: [ServerThr.3] Shutdown finished
+[ 2015-09-25 10:26:51.7095 11483/7f48b67fc700 Ser/Server.h:758 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-25 10:26:51.7096 11483/7f48b67fc700 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-25 10:26:51.7101 11491/7f23b6472780 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-25 10:26:51.7222 11483/7f48cef6f780 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished
+[ 2015-09-25 10:29:49.4321 11914/7f954d000780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mocheje', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4yYzVmb24vdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mocheje', 'default_python' => 'python', 'default_ruby' => '/home/mocheje/.rvm/gems/ruby-1.9.3-p551@rails-3.2.3/wrappers/ruby', 'default_user' => 'mocheje', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.2c5fon/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '11913', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-09-25 10:29:49.4401 11917/7f401d99a780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.11913/generation-0/request
+[ 2015-09-25 10:29:49.4486 11923/7fe0a8013780 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.11913/generation-0/logging
+[ 2015-09-25 10:29:49.4488 11914/7f954d000780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 11954 stdout: 
+App 11954 stdout: Fedena requires i18n gem version 0.4.0 to be installed.Run gem install i18n -v 0.4.0
+App 11954 stdout: 
+[ 2015-09-25 10:29:51.8760 11917/7f401d8b4700 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mocheje/AYI/ERP: An error occured while starting up the preloader.
+  Error ID: a28b7c20
+  Error details saved to: /tmp/passenger-error-E0VPnG.html
+  Message from application: cannot load such file -- initializer (LoadError)
+  /home/mocheje/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:121:in `require'
+  /home/mocheje/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:121:in `require'
+  /home/mocheje/AYI/ERP/config/boot.rb:54:in `load_initializer'
+  /home/mocheje/AYI/ERP/config/boot.rb:110:in `run'
+  /home/mocheje/AYI/ERP/config/boot.rb:10:in `boot!'
+  /home/mocheje/AYI/ERP/config/boot.rb:121:in `<top (required)>'
+  /home/mocheje/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/mocheje/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/mocheje/AYI/ERP/config/environment.rb:1:in `<top (required)>'
+  /home/mocheje/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/mocheje/.rvm/rubies/ruby-1.9.3-p551/lib/ruby/site_ruby/1.9.1/rubygems/core_ext/kernel_require.rb:54:in `require'
+  /home/mocheje/.rvm/gems/ruby-1.9.3-p551@rails-3.2.3/gems/passenger-4.0.59/helper-scripts/classic-rails-preloader.rb:96:in `preload_app'
+  /home/mocheje/.rvm/gems/ruby-1.9.3-p551@rails-3.2.3/gems/passenger-4.0.59/helper-scripts/classic-rails-preloader.rb:184:in `<module:App>'
+  /home/mocheje/.rvm/gems/ruby-1.9.3-p551@rails-3.2.3/gems/passenger-4.0.59/helper-scripts/classic-rails-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/mocheje/.rvm/gems/ruby-1.9.3-p551@rails-3.2.3/gems/passenger-4.0.59/helper-scripts/classic-rails-preloader.rb:28:in `<main>'
+
+
+[ 2015-09-25 10:29:51.8837 11917/7f4016ffd700 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is a28b7c20. Please see earlier logs for details about the error.
+[ 2015-09-25 10:33:40.2708 12299/7f3fab6ed780 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'mocheje', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5iNTZuNHQvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mocheje', 'default_python' => 'python', 'default_ruby' => '/home/mocheje/.rvm/gems/ruby-1.8.7-head/wrappers/ruby', 'default_user' => 'mocheje', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.b56n4t/locations.ini', 'passenger_version' => '4.0.59', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.59', 'web_server_pid' => '12298', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2015-09-25 10:33:40.2862 12302/7fa79b61b780 agents/HelperAgent/Main.cpp:650 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.12298/generation-0/request
+[ 2015-09-25 10:33:40.2949 12308/7f6503692780 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.12298/generation-0/logging
+[ 2015-09-25 10:33:40.2954 12299/7f3fab6ed780 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 12332 stdout: 
+App 12332 stdout: 
+[ 2015-09-25 10:33:44.2190 12302/7fa79b535700 Pool2/Implementation.cpp:287 ]: Could not spawn process for application /home/mocheje/AYI/ERP: An error occured while starting up the preloader.
+  Error ID: d8824578
+  Error details saved to: /tmp/passenger-error-N0ENoP.html
+  Message from application: uninitialized constant Rails::Boot::Bundler (NameError)
+  /home/mocheje/.rvm/gems/ruby-1.8.7-head/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:105:in `const_missing'
+  /home/mocheje/AYI/ERP/config/boot.rb:114:in `load_gems'
+  /home/mocheje/.rvm/gems/ruby-1.8.7-head/gems/rails-2.3.5/lib/initializer.rb:164:in `process'
+  /home/mocheje/.rvm/gems/ruby-1.8.7-head/gems/rails-2.3.5/lib/initializer.rb:113:in `send'
+  /home/mocheje/.rvm/gems/ruby-1.8.7-head/gems/rails-2.3.5/lib/initializer.rb:113:in `run'
+  /home/mocheje/AYI/ERP/config/environment.rb:17
+  /home/mocheje/.rvm/rubies/ruby-1.8.7-head/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+  /home/mocheje/.rvm/rubies/ruby-1.8.7-head/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+  /home/mocheje/.rvm/gems/ruby-1.8.7-head/gems/passenger-4.0.59/helper-scripts/classic-rails-preloader.rb:96:in `preload_app'
+  /home/mocheje/.rvm/gems/ruby-1.8.7-head/gems/passenger-4.0.59/helper-scripts/classic-rails-preloader.rb:184
+
+
+[ 2015-09-25 10:33:44.2249 12302/7fa79940d700 agents/HelperAgent/RequestHandler.h:2306 ]: [Client 20] Cannot checkout session because a spawning error occurred. The identifier of the error is d8824578. Please see earlier logs for details about the error.
